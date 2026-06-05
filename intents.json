@@ -1,0 +1,43 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good morning"
+      ],
+      "responses": [
+        "Hello! How can I assist you medically today?",
+        "Hi there! Describe your symptoms."
+      ]
+    },
+
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have fever",
+        "My body is hot",
+        "I feel temperature"
+      ],
+      "responses": [
+        "Please stay hydrated and monitor your temperature.",
+        "You may need medical attention if symptoms persist."
+      ]
+    },
+
+    {
+      "tag": "headache",
+      "patterns": [
+        "I have headache",
+        "My head hurts"
+      ],
+      "responses": [
+        "Ensure you rest and drink enough water.",
+        "Persistent headache may require medical consultation."
+      ]
+    }
+
+  ]
+}
