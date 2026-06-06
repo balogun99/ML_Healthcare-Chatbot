@@ -3,6 +3,6 @@ tensorflow==2.15.0
 numpy==1.26.3
 pandas
 scikit-learn
-# nltk
+nltk
 pickle-mixin
-# sqlite3-api
+sqlite3-api
